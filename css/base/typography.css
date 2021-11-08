@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+:root {
+  --font-family: 'Bellefair', serif;
+
+  /* Base values */
+  --text-size-base: 18px;
+
+  /* Type scale */
+  --text-xxxl: 150px;
+  --text-xxl: 100px;
+  --text-xl: 56px;
+  --text-lg: 32px;
+  --text-md: 28px;
+  --text-sm: 28px;
+  --text-xs: 14px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--text-size-base);
+  color: var(--light);
+}
+
+.text-xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h1,
+.text-xxl {
+  font-size: var(--text-xxl);
+}
+
+h2,
+.text-xl {
+  font-size: var(--text-xl);
+}
+
+h3,
+.text-lg {
+  font-size: var(--text-lg);
+}
+
+h4,
+.text-md {
+  font-size: var(--text-md);
+  letter-spacing: 4.75px;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+  letter-spacing: 2.35px;
+}
