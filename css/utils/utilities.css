@@ -1,0 +1,15 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-moon {
+  color: var(--moon);
+}
+
+.text-light {
+  color: var(--light);
+}

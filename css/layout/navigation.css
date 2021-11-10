@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 55px;
+  height: 96px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: 830px;
+  height: 100%;
+  backdrop-filter: blur(81.5485px);
+}
+
+.nav-link {
+  color: var(--light);
+}

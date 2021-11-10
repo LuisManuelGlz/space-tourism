@@ -3,8 +3,12 @@
 @import './base/color.css';
 @import './base/typography.css';
 
+/* Layout */
+@import './layout/navigation.css';
+
 /* Pages */
 @import './pages/home.css';
 
 /* Utils */
 @import './utils/variables.css';
+@import './utils/utilities.css';

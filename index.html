@@ -25,19 +25,53 @@
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body class="bg">
-    <nav>00 Home 01 Destination 02 Crew 03 Technology</nav>
+    <nav class="nav-container">
+      <img
+        src="./assets/shared/logo.svg"
+        alt="Space Tourism Logo"
+        width="48"
+        height="48"
+      />
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link text-nav uppercase">00 Home</a>
+        </li>
+        <li>
+          <a href="destination-moon.html" class="nav-link text-nav uppercase"
+            >01 Destination</a
+          >
+        </li>
+        <li>
+          <a href="crew-commander.html" class="nav-link text-nav uppercase"
+            >02 Crew</a
+          >
+        </li>
+        <li>
+          <a href="technology-vehicle.html" class="nav-link text-nav uppercase"
+            >03 Technology</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-    <div>
-      <h2>So, you want to travel to Space</h2>
+    <main>
+      <div>
+        <h2 class="text-sm text-moon uppercase">
+          So, you want to travel to
+          <span class="text-xxxl text-light">Space</span>
+        </h2>
 
-      <p>
-        Let’s face it; if you want to go to space, you might as well genuinely
-        go to outer space and not hover kind of on the edge of it. Well sit
-        back, and relax because we’ll give you a truly out of this world
-        experience!
-      </p>
-    </div>
+        <p>
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </div>
 
-    <button>Explore</button>
+      <a href="destination-moon.html" class="explore-button text-lg uppercase"
+        >Explore</a
+      >
+    </main>
   </body>
 </html>

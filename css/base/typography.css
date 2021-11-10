@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
 
 :root {
   --font-family: 'Bellefair', serif;
@@ -14,6 +15,7 @@
   --text-md: 28px;
   --text-sm: 28px;
   --text-xs: 14px;
+  --text-nav: 16px;
 }
 
 body {
@@ -54,4 +56,9 @@ h4,
 .text-xs {
   font-size: var(--text-xs);
   letter-spacing: 2.35px;
+}
+
+.text-nav {
+  font-size: var(--text-nav);
+  letter-spacing: 2.7px;
 }
