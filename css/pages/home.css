@@ -8,16 +8,59 @@
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-end;
+  margin-top: 55px;
+  padding: 131px 165px;
+}
+
+.home-info {
+  grid-column: 1;
+  max-width: 450px;
+}
+
+.home-info h4 {
+  line-height: 130px;
+}
+
+.home-info p {
+  margin-top: 24px;
+  max-width: 450px;
+  line-height: 32px;
 }
 
 .explore-button {
+  grid-column: 2;
+  justify-self: end;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 274px;
   height: 274px;
   border-radius: 9999px;
+  letter-spacing: 2px;
   background: var(--light);
   color: var(--dark);
+}
+
+.explore-button:hover::before {
+  content: '';
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: var(--light-transparent);
+  border-radius: 9999px;
+  z-index: -9999;
+  animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }

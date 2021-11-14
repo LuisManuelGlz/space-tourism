@@ -1,5 +1,8 @@
 :root {
   --dark: #0b0d17;
-  --moon: #616476;
+  --moon: #D0D6F9;
   --light: #ffffff;
+  --gray: #979797;
+  --light-blurred: rgba(255, 255, 255, 0.04);
+  --light-transparent: rgba(255, 255, 255, 0.5);
 }
