@@ -9,6 +9,8 @@
 /* Pages */
 @import './pages/home.css';
 @import './pages/destination.css';
+@import './pages/destination.css';
+@import './pages/crew.css';
 
 /* Utils */
 @import './utils/variables.css';

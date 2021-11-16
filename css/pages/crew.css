@@ -1,0 +1,87 @@
+.bg-crew {
+  background-image: url('../../assets/crew/background-crew-desktop.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#crew-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 188px 1fr 1fr;
+  margin-top: 76px;
+  padding: 0 166.5px;
+}
+
+.crew-title {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.crew-title span {
+  margin-right: 15px;
+  font-weight: bold;
+  opacity: 0.25;
+}
+
+.crew-position {
+  opacity: 50.42%;
+}
+
+.crew-name {
+  margin-top: 25px;
+}
+
+.crew-info {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.crew-info p {
+  margin-top: 27px;
+  max-width: 444px;
+  line-height: 32px;
+}
+
+.crew-details {
+  display: flex;
+  gap: 79px;
+  margin-top: 28px;
+}
+
+.crew-nav {
+  align-self: center;
+  height: 15px;
+}
+
+.crew-nav-list {
+  display: flex;
+  gap: 24px;
+  height: 100%;
+}
+
+.crew-nav-list-item {
+  background: var(--midnight);
+  border-radius: 9999px;
+}
+
+.crew-nav-list-item:hover:not(.active) {
+  background: var(--light-transparent);
+}
+
+.crew-nav-dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.crew-active {
+  background: var(--light);
+}
+
+.crew-image {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  justify-self: end;
+}
