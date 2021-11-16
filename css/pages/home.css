@@ -1,4 +1,4 @@
-.bg {
+.bg-home {
   background-image: url('../../assets/home/background-home-desktop.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-main {
+#home-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-end;
@@ -19,7 +19,7 @@ main {
   max-width: 450px;
 }
 
-.home-info h4 {
+.home-title {
   line-height: 130px;
 }
 
