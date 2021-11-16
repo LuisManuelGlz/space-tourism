@@ -8,6 +8,7 @@
 
 /* Pages */
 @import './pages/home.css';
+@import './pages/destination.css';
 
 /* Utils */
 @import './utils/variables.css';

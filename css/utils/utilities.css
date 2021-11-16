@@ -21,3 +21,7 @@
 .font-secondary {
   font-family: var(--font-secondary);
 }
+
+.divider {
+  border-bottom: 1px solid #383B4B;
+}

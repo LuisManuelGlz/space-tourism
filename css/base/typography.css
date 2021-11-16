@@ -29,26 +29,34 @@ body {
   font-size: var(--text-xxxl);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-secondary);
 }
 
 h1,
+.text-xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h2,
 .text-xxl {
   font-size: var(--text-xxl);
 }
 
-h2,
+h3,
 .text-xl {
   font-size: var(--text-xl);
 }
 
-h3,
+h4,
 .text-lg {
   font-size: var(--text-lg);
 }
 
-h4,
+h5,
 .text-md {
   font-size: var(--text-md);
   letter-spacing: 4.75px;

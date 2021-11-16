@@ -9,7 +9,7 @@
 
 .nav-line {
   width: 473px;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--cloud);
   transform: translateX(10%);
   z-index: 9999;
 }
