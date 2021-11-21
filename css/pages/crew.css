@@ -25,11 +25,11 @@
   opacity: 0.25;
 }
 
-.crew-position {
+#crewRole {
   opacity: 50.42%;
 }
 
-.crew-name {
+#crewName {
   margin-top: 25px;
 }
 
@@ -74,7 +74,7 @@
   background: var(--light);
 }
 
-.crew-image {
+#crewImage {
   grid-column: 2;
   grid-row: 1 / span 3;
   justify-self: end;
