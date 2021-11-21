@@ -66,7 +66,7 @@
   grid-row: 2;
 }
 
-.technology-name {
+#technologyName {
   margin-top: 20px;
 }
 
@@ -76,7 +76,7 @@
   line-height: 32px;
 }
 
-.technology-image {
+#technologyImage {
   grid-column: 3;
   grid-row: 1 / span 3;
   justify-self: end;

@@ -14,6 +14,9 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/main.css" />
 
+    <!-- JavaScript -->
+    <script src="./js/technology.js" defer></script>
+
     <title>Crew | Space tourism website</title>
   </head>
   <body class="bg-technology">
@@ -62,18 +65,30 @@
       <!-- Technology navigation -->
       <div class="technology-nav">
         <ul class="technology-nav-list">
-          <li class="technology-nav-list-item technology-active">
-            <a class="technology-nav-option text-lg font-secondary" href="#">
+          <li
+            class="technology-nav-list-item technology-active"
+            data-technology="Launch vehicle"
+          >
+            <a
+              class="technology-nav-option text-lg font-secondary"
+              href="#LaunchVehicle"
+            >
               1
             </a>
           </li>
-          <li class="technology-nav-list-item">
-            <a class="technology-nav-option text-lg font-secondary" href="#">
+          <li class="technology-nav-list-item" data-technology="Spaceport">
+            <a
+              class="technology-nav-option text-lg font-secondary"
+              href="#Spaceport"
+            >
               2
             </a>
           </li>
-          <li class="technology-nav-list-item">
-            <a class="technology-nav-option text-lg font-secondary" href="#">
+          <li class="technology-nav-list-item" data-technology="Space capsule">
+            <a
+              class="technology-nav-option text-lg font-secondary"
+              href="#Capsule"
+            >
               3
             </a>
           </li>
@@ -83,9 +98,9 @@
 
       <div class="technology-info">
         <span class="text-nav text-moon uppercase">The terminology...</span>
-        <h3 class="technology-name uppercase">Launch vehicle</h3>
+        <h3 id="technologyName" class="uppercase">Launch vehicle</h3>
 
-        <p class="text-moon">
+        <p id="technologyDescription" class="text-moon">
           A launch vehicle or carrier rocket is a rocket-propelled vehicle used
           to carry a payload from Earth's surface to space, usually to Earth
           orbit or beyond. Our WEB-X carrier rocket is the most powerful in
@@ -96,9 +111,9 @@
 
       <!-- Crew image -->
       <img
-        class="technology-image"
+        id="technologyImage"
         src="./assets/technology/image-launch-vehicle-portrait.jpg"
-        alt="Rocket"
+        alt="Technology"
       />
     </main>
     <!-- End main content -->
