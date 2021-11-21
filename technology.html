@@ -39,12 +39,12 @@
             <span>01</span> Destination
           </a>
         </li>
-        <li class="nav-list-item active">
+        <li class="nav-list-item">
           <a href="crew.html" class="nav-link text-nav uppercase">
             <span>02</span> Crew
           </a>
         </li>
-        <li class="nav-list-item">
+        <li class="nav-list-item active">
           <a href="technology.html" class="nav-link text-nav uppercase">
             <span>03</span> Technology
           </a>
@@ -54,12 +54,36 @@
     <!-- End navigation bar -->
 
     <!-- Main content -->
-    <main id="crew-content">
-      <h5 class="crew-title uppercase"><span>03</span> Space launch 101</h5>
+    <main id="technology-content">
+      <h5 class="technology-title uppercase">
+        <span>03</span> Space launch 101
+      </h5>
 
-      <div class="crew-info">
-        <h4 class="crew-position uppercase">The terminology...</h4>
-        <h3 class="crew-name uppercase">Launch vehicle</h3>
+      <!-- Technology navigation -->
+      <div class="technology-nav">
+        <ul class="technology-nav-list">
+          <li class="technology-nav-list-item technology-active">
+            <a class="technology-nav-option text-lg font-secondary" href="#">
+              1
+            </a>
+          </li>
+          <li class="technology-nav-list-item">
+            <a class="technology-nav-option text-lg font-secondary" href="#">
+              2
+            </a>
+          </li>
+          <li class="technology-nav-list-item">
+            <a class="technology-nav-option text-lg font-secondary" href="#">
+              3
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End technology navigation -->
+
+      <div class="technology-info">
+        <span class="text-nav text-moon uppercase">The terminology...</span>
+        <h3 class="technology-name uppercase">Launch vehicle</h3>
 
         <p class="text-moon">
           A launch vehicle or carrier rocket is a rocket-propelled vehicle used
@@ -72,7 +96,7 @@
 
       <!-- Crew image -->
       <img
-        class="crew-image"
+        class="technology-image"
         src="./assets/technology/image-launch-vehicle-portrait.jpg"
         alt="Rocket"
       />

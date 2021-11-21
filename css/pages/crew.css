@@ -11,7 +11,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 188px 1fr 1fr;
   margin-top: 76px;
-  padding: 0 166.5px;
+  padding: 0 137.07px 0 166.5px;
 }
 
 .crew-title {
@@ -42,12 +42,6 @@
   margin-top: 27px;
   max-width: 444px;
   line-height: 32px;
-}
-
-.crew-details {
-  display: flex;
-  gap: 79px;
-  margin-top: 28px;
 }
 
 .crew-nav {
