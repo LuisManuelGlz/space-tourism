@@ -11,11 +11,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 98px 1fr;
   margin-top: 76px;
-  padding: 0 166.5px;
+  padding: 0 166.5px 112px 166.5px;
 }
 
 .destination-title {
-  grid-column: 1 / 3;
+  grid-column: 1;
   grid-row: 1;
 }
 
@@ -70,6 +70,8 @@
 }
 
 .destination-info {
+  grid-column: 2;
+  grid-row: 2;
   justify-self: end;
   max-width: 445px;
 }
