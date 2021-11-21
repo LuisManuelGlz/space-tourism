@@ -14,6 +14,9 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/main.css" />
 
+    <!-- JavaScript -->
+    <script src="./js/destination.js" defer></script>
+
     <title>Destination | Space tourism website</title>
   </head>
   <body class="bg-destination">
@@ -54,16 +57,16 @@
     <!-- End navigation bar -->
 
     <!-- Main content -->
-    <main id="destination-content">
+    <main id="destinationContent">
       <h5 class="destination-title uppercase">
         <span>01</span> Pick your destination
       </h5>
 
       <!-- Destination image -->
       <img
-        class="destination-image"
+        id="destinationImage"
         src="./assets/destination/image-moon.png"
-        alt="Moon"
+        alt="Destination"
         width="450"
       />
 
@@ -72,23 +75,23 @@
         <!-- Navigation tabs -->
         <div class="destination-nav">
           <ul class="destination-nav-list">
-            <li class="destination-nav-list-item destination-active">
-              <a class="destination-nav-link text-nav uppercase" href="#">
+            <li class="destination-nav-list-item destination-active" data-destination="Moon">
+              <a class="destination-nav-link text-nav uppercase" href="#Moon">
                 Moon
               </a>
             </li>
-            <li class="destination-nav-list-item">
-              <a class="destination-nav-link text-nav uppercase" href="#">
+            <li class="destination-nav-list-item" data-destination="Mars">
+              <a class="destination-nav-link text-nav uppercase" href="#Mars">
                 Mars
               </a>
             </li>
-            <li class="destination-nav-list-item">
-              <a class="destination-nav-link text-nav uppercase" href="#">
+            <li class="destination-nav-list-item" data-destination="Europa">
+              <a class="destination-nav-link text-nav uppercase" href="#Europa">
                 Europa
               </a>
             </li>
-            <li class="destination-nav-list-item">
-              <a class="destination-nav-link text-nav uppercase" href="#">
+            <li class="destination-nav-list-item" data-destination="Titan">
+              <a class="destination-nav-link text-nav uppercase" href="#Titan">
                 Titan
               </a>
             </li>
@@ -96,9 +99,9 @@
         </div>
         <!-- End navigation tabs -->
 
-        <h2 class="destination-name uppercase">Moon</h2>
+        <h2 id="destinationName" class="uppercase">Moon</h2>
 
-        <p class="text-moon">
+        <p id="destinationDescription" class="text-moon">
           See our planet as you’ve never seen it before. A perfect relaxing trip
           away to help regain perspective and come back refreshed. While you’re
           there, take in some history by visiting the Luna 2 and Apollo 11
@@ -111,11 +114,18 @@
         <div class="destination-details">
           <div>
             <h6 class="text-xs text-moon uppercase">Avg. distance</h6>
-            <p class="font-secondary text-sm uppercase">384,400 km</p>
+            <p
+              id="destinationDistance"
+              class="font-secondary text-sm uppercase"
+            >
+              384,400 km
+            </p>
           </div>
           <div>
             <h6 class="text-xs text-moon uppercase">Est. travel time</h6>
-            <p class="font-secondary text-sm uppercase">3 days</p>
+            <p id="destinationTravel" class="font-secondary text-sm uppercase">
+              3 days
+            </p>
           </div>
         </div>
         <!-- End destination details -->
