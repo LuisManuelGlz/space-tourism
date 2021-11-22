@@ -29,11 +29,12 @@
   grid-column: 1;
   grid-row: 2;
   place-self: center;
+  width: 450px;
+  height: 450px;
 }
 
 .destination-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 34px;
 }
@@ -86,4 +87,47 @@
   display: flex;
   gap: 79px;
   margin-top: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-destination {
+    background-image: url('../../assets/destination/background-destination-tablet.jpg');
+  }
+
+  #destinationContent {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto) 1fr;
+    margin-top: 40px;
+    padding: 0 38.5px;
+  }
+
+  #destinationImage {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .destination-info {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+    text-align: center;
+    max-width: 579px;
+  }
+
+  .destination-info p {
+    margin-top: 10px;
+  }
+
+  .destination-nav {
+    margin-top: 53px;
+    justify-content: center;
+  }
+
+  .destination-details {
+    gap: 95px;
+    justify-content: center;
+  }
 }

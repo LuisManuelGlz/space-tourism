@@ -82,6 +82,7 @@ h5,
     --text-size-base: 18px;
 
     /* Type scale */
+    --text-xxl: 80px;
     --text-md: 20px;
     --text-nav: 14px;
   }
