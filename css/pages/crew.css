@@ -8,7 +8,7 @@
 
 #crew-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(614px, 1fr) 1fr;
   grid-template-rows: 188px 1fr 1fr;
   margin-top: 76px;
   padding: 0 137.07px 0 166.5px;
@@ -78,4 +78,6 @@
   grid-column: 2;
   grid-row: 1 / span 3;
   justify-self: end;
+  align-self: flex-end;
+  min-width: 100%;
 }
