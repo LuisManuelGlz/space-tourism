@@ -50,3 +50,24 @@
 .active {
   border-bottom-color: var(--light);
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    margin-top: 0;
+    margin-left: 39px;
+  }
+
+  .nav-line {
+    display: none;
+  }
+
+  .nav-list {
+    gap: 37px;
+    max-width: 450px;
+    padding: 0 46px 0 48px;
+  }
+
+  .nav-link span {
+    display: none;
+  }
+}
