@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-#crew-content {
+#crewContent {
   display: grid;
   grid-template-columns: minmax(614px, 1fr) 1fr;
   grid-template-rows: 188px 1fr 1fr;
@@ -45,6 +45,8 @@
 }
 
 .crew-nav {
+  grid-column: 1;
+  grid-row: 3;
   align-self: center;
   height: 15px;
 }
@@ -80,4 +82,60 @@
   justify-self: end;
   align-self: flex-end;
   min-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-crew {
+    background-image: url('../../assets/crew/background-crew-tablet.jpg');
+  }
+
+  #crewContent {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto) 1fr;
+    margin-top: 40px;
+    padding: 0 38.5px;
+  }
+
+  #crewName {
+    margin-top: 18px;
+  }
+
+  .crew-info {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .crew-info p {
+    margin-top: 20px;
+    max-width: 530px;
+    line-height: 28px;
+  }
+
+  .crew-nav {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+    margin: 40px 0;
+    height: 10px;
+  }
+
+  .crew-nav-list {
+    gap: 16px;
+  }
+
+  .crew-nav-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  #crewImage {
+    grid-column: 1;
+    grid-row: 4;
+    min-width: 400px;
+    max-width: 400px;
+    justify-self: center;
+  }
 }
