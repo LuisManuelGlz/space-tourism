@@ -6,6 +6,16 @@ const description = document.querySelector('#technologyDescription');
 
 let currentButtonSelected = document.querySelector('.technology-active');
 
+const technologyImages = {};
+
+const getTechnologyImage = () => {
+  if (window.innerWidth > 768) {
+    return technologyImages.portrait;
+  }
+
+  return technologyImages.landscape;
+};
+
 /**
  * Get technology data from local data
  */
@@ -19,7 +29,8 @@ const getTechnologyData = (technologyName = null) => {
           )
         : data.technology[0];
 
-      image.src = technology.images.portrait;
+      Object.assign(technologyImages, technology.images);
+      image.src = getTechnologyImage();
       name.innerText = technology.name;
       description.innerText = technology.description;
     });
@@ -37,3 +48,11 @@ buttons.forEach((button) => {
     getTechnologyData(button.dataset.technology);
   });
 });
+
+window.addEventListener(
+  'resize',
+  () => {
+    image.src = getTechnologyImage();
+  },
+  true
+);
