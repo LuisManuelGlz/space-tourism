@@ -7,6 +7,11 @@
   height: 96px;
 }
 
+.nav-logo {
+  width: 48px;
+  height: 48px;
+}
+
 .nav-line {
   width: 100%;
   max-width: 473px;
@@ -69,5 +74,16 @@
 
   .nav-link span {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    margin-left: 24px;
+  }
+
+  .nav-logo {
+    width: 40px;
+    height: 40px;
   }
 }
