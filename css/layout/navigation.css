@@ -34,6 +34,12 @@
   backdrop-filter: blur(81.5485px);
 }
 
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+}
+
 .nav-side {
   position: fixed;
   top: 0;
@@ -46,7 +52,11 @@
 }
 
 .nav-close {
+  position: absolute;
+  top: 0;
+  right: 0;
   background: none;
+  border: none;
 }
 
 .nav-list-item {
@@ -100,16 +110,20 @@
 
 @media only screen and (max-width: 375px) {
   .nav-container {
-    margin-left: 24px;
+    margin: 0 24px;
   }
 
   .nav-logo {
     width: 40px;
     height: 40px;
   }
-
+  /* 26.55 */
   .nav-list {
     display: none;
+  }
+
+  .nav-hamburger {
+    display: inline-block;
   }
 
   .nav-side {

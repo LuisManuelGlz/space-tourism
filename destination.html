@@ -22,11 +22,13 @@
   <body class="bg-destination">
     <!-- Navigation bar -->
     <nav class="nav-container">
-      <img
-        class="nav-logo"
-        src="./assets/shared/logo.svg"
-        alt="Space Tourism Logo"
-      />
+      <a href="index.html">
+        <img
+          class="nav-logo"
+          src="./assets/shared/logo.svg"
+          alt="Space Tourism Logo"
+        />
+      </a>
 
       <div class="nav-line"></div>
 
@@ -52,6 +54,48 @@
           </a>
         </li>
       </ul>
+
+      <button class="nav-hamburger">
+        <img
+          src="./assets/shared/icon-hamburger.svg"
+          alt="Close"
+          width="24"
+          height="21"
+        />
+      </button>
+
+      <!-- <ul class="nav-side">
+        <li>
+          <button class="nav-close">
+            <img
+              src="./assets/shared/icon-close.svg"
+              alt="Close"
+              width="19.09"
+              height="19.09"
+            />
+          </button>
+        </li>
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-side-link text-nav uppercase">
+            <span>00</span> Home
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="destination.html" class="nav-side-link text-nav uppercase">
+            <span>01</span> Destination
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="crew.html" class="nav-side-link text-nav uppercase">
+            <span>02</span> Crew
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="technology.html" class="nav-side-link text-nav uppercase">
+            <span>03</span> Technology
+          </a>
+        </li>
+      </ul> -->
     </nav>
     <!-- End navigation bar -->
 
@@ -73,7 +117,10 @@
         <!-- Navigation tabs -->
         <div class="destination-nav">
           <ul class="destination-nav-list">
-            <li class="destination-nav-list-item destination-active" data-destination="Moon">
+            <li
+              class="destination-nav-list-item destination-active"
+              data-destination="Moon"
+            >
               <a class="destination-nav-link text-nav uppercase" href="#Moon">
                 Moon
               </a>

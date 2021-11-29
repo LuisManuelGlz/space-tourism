@@ -100,3 +100,23 @@
     height: 242px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  #homeContent {
+    justify-self: center;
+    padding: 0 0 90px 0;
+    max-width: 327px;
+  }
+
+  .home-title {
+    line-height: 70px;
+  }
+
+  .explore-button {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+  }
+}

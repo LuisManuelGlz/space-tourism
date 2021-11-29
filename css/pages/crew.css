@@ -139,3 +139,48 @@
     justify-self: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #crewContent {
+    margin-top: 0;
+  }
+  
+  .crew-title {
+    text-align: center;
+  }
+
+  #crewName {
+    margin-top: 8px;
+  }
+
+  .crew-info {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 0;
+  }
+
+  .crew-info p {
+    line-height: 25px;
+  }
+
+  .crew-nav {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .crew-image-container {
+    display: flex;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 32px;
+    border-bottom: solid 1px var(--cloud);
+  }
+  
+  #crewImage {
+    min-width: 160px;
+    max-width: 160px;
+    width: 327px;
+    /* height: 223px; */
+  }
+}

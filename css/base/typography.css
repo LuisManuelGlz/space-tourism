@@ -98,3 +98,17 @@ h5,
     letter-spacing: 2.36px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  :root {
+    /* Base values */
+    --text-size-base: 13px;
+
+    /* Type scale */
+    --text-xxxl: 80px;
+    --text-xxl: 56px;
+    --text-xl: 24px;
+    --text-lg: 16px;
+    --text-md: 16px;
+  }
+}

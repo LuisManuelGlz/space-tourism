@@ -131,3 +131,38 @@
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #destinationContent {
+    justify-self: center;
+    margin-top: 0;
+  }
+
+  .destination-title {
+    text-align: center;
+  }
+
+  #destinationImage {
+    align-self: center;
+    margin-top: 30px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .destination-nav {
+    margin-top: 26px;
+  }
+
+  .destination-nav-list {
+    gap: 27px;
+  }
+
+  .destination-info p {
+    line-height: 25px;
+  }
+
+  .destination-details {
+    flex-direction: column;
+    gap: 0;
+  }
+}
