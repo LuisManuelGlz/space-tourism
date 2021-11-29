@@ -139,7 +139,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
   #technologyContent {
     margin-top: 0;
   }
