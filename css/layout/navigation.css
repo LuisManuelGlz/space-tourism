@@ -146,6 +146,10 @@
     display: none;
   }
 
+  .nav-list-item:hover {
+    border-bottom: none;
+  }
+
   .nav-hamburger {
     display: inline-block;
   }
