@@ -30,6 +30,7 @@
   background: var(--light-blurred);
   backdrop-filter: blur(81.5485px);
   transition: transform 0.3s ease-in-out;
+  z-index: 9999;
 }
 
 .nav-list {
