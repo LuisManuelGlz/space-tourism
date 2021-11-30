@@ -104,7 +104,7 @@
 @media only screen and (max-width: 375px) {
   #homeContent {
     justify-self: center;
-    padding: 0 0 90px 0;
+    padding: 0;
     max-width: 327px;
   }
 
