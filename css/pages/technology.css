@@ -1,8 +1,6 @@
 .bg-technology {
   background-image: url('../../assets/technology/background-technology-desktop.jpg');
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -140,6 +138,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .bg-technology {
+    background-image: url('../../assets/technology/background-technology-mobile.jpg');
+  }
+
   #technologyContent {
     margin-top: 0;
   }

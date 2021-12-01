@@ -1,8 +1,6 @@
 .bg-home {
   background-image: url('../../assets/home/background-home-desktop.jpg');
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -102,6 +100,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .bg-home {
+    background-image: url('../../assets/home/background-home-mobile.jpg');
+  }
+
   #homeContent {
     justify-self: center;
     padding: 0;
