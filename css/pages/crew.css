@@ -81,15 +81,10 @@
 }
 
 #crewImage {
-  justify-self: end;
-  align-self: flex-end;
   max-width: 500px;
 }
 
-@media only screen and (max-width: 1024px) {
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1160px) {
   .bg-crew {
     background-image: url('../../assets/crew/background-crew-tablet.jpg');
   }
@@ -139,12 +134,12 @@
   .crew-image-container {
     grid-column: 1;
     grid-row: 4;
+    text-align: center;
   }
 
   #crewImage {
     min-width: 400px;
     max-width: 400px;
-    justify-self: center;
   }
 }
 
@@ -185,6 +180,7 @@
     justify-content: center;
     grid-column: 1;
     grid-row: 2;
+    margin-left: 0;
     margin-top: 32px;
     border-bottom: solid 1px var(--cloud);
   }
